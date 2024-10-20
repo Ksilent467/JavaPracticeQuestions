@@ -22,7 +22,8 @@ public class TwoSumClosestToZero {
             }
             else
             {
-                if(Math.abs(curr)<Math.abs(res) || Math.abs(curr)==Math.abs(res) && curr>res)
+                if(Math.abs(curr)<Math.abs(res) || Math.abs(curr)==Math.abs(res) && curr>res)  // OR condition added to replace res with curr if curr=5 found
+                                                                                               // and res is having -5
                 {
                     res=curr;
                 }
