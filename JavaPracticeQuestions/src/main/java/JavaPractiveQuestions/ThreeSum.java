@@ -38,8 +38,6 @@ public class ThreeSum {
                System.out.println("Numbers found: "+arr[i]+" "+arr[start]+" and "+ arr[end]);
                break;
            }
-           else
-               continue;
         }
         if(!flag)
             System.out.println("Not found");
