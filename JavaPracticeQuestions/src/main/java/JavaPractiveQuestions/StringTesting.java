@@ -19,11 +19,13 @@ public class StringTesting {
 
         //System.out.println(Integer.bitCount(8)==Integer.bitCount(4));
         List<Integer> list = Arrays.asList(arr);
-        System.out.println(list.get(0));
-        arr[0]=10;
-        System.out.println(list.get(0));
+//        System.out.println(list.get(0));
+//        arr[0]=10;
+//        System.out.println(list.get(0));
 
-
-
+        System.out.println(1 & 16);
+        System.out.println(Integer.bitCount(16));
+      //  System.out.println(Integer.highestOneBit(15));
+   //     System.out.println(Integer.lowestOneBit(15));
     }
 }
