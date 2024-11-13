@@ -15,6 +15,8 @@ public class StringTesting {
 //        System.out.println(sb);
 
         Integer []arr=new Integer[]{4,2,8,15,30};
+        int x= (int) Math.pow(2,3);
+        System.out.println("Power:"+x);
 
 
         //System.out.println(Integer.bitCount(8)==Integer.bitCount(4));
@@ -23,7 +25,7 @@ public class StringTesting {
 //        arr[0]=10;
 //        System.out.println(list.get(0));
 
-        System.out.println(1 & 16);
+        System.out.println(4 & 5);
         System.out.println(Integer.bitCount(16));
       //  System.out.println(Integer.highestOneBit(15));
    //     System.out.println(Integer.lowestOneBit(15));
